@@ -11,6 +11,42 @@ function scrollFunction() {
     }
 }
 
+const body = document.querySelector("body"),
+      header = document.querySelector("header"),
+      cartToggle = document.querySelector(".cart"),
+      wishlistToggle = document.querySelector(".wishlist"),
+      accountToggle = document.querySelector(".account"),
+      sidebarOpen = document.querySelector(".sidebarOpen"),
+      sidebarClose = document.querySelector(".sidebarClose");
+
+      // js code to cart
+      cartToggle.addEventListener("click", () => {
+          cartToggle.classList.toggle("active");
+      })
+
+      // js code to wishlist
+      wishlistToggle.addEventListener("click", () => {
+          wishlistToggle.classList.toggle("active");
+      })
+
+      // js code to account
+      accountToggle.addEventListener("click", () => {
+          accountToggle.classList.toggle("active");
+      })
+
+      //js code to sidebarOpen
+      sidebarOpen.addEventListener("click" , () =>{
+          header.classList.add("active");
+      })
+
+      body.addEventListener("click" , e => {
+          let clickedElm = e.target;
+
+          if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
+              header.classList.remove("active");
+          }
+      })
+
 
 
 
