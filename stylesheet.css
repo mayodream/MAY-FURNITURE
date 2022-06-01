@@ -59,44 +59,57 @@ ul, li {
 
 .nav {
     height: 56px;
-    width: 1000px;
+    max-width: 1000px;
+    width: 100%;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 20% 62% 18%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.nav-logo {
-    margin-top: 0px;
-    margin-left: 0px;
+.logo {
+    display: flex;
+    align-items: center;
 }
 
-.grid-nav-item img {
+.logo a {
+    font-size: 20px;
+    color: #30354F;
+    float: left;
+}
+
+.logo a img {
     width: 50px;
     height: 50px;
-    float: left;
-}
-.grid-nav-item .nav-logo li a {
-    font-size: 18px;
-    color: #30354F;
-    line-height: 56px;
 }
 
-.nav-section {
-    margin-top: 14px;
+.nav-links a img{
+    width: 20px;
+    height: 20px;
+}
+
+.nav .nav-links {
     margin-left: 120px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 0, 0, 0);
 }
 
-.nav-section li a{
+.nav .nav-links li {
+    list-style: none;
+}
+
+.nav-links li a{
     float: left;
     position: relative;
-    font-size: 16px;
+    font-size: 17px;
     color: #30354F;
     padding: 0 10px;
     line-height: 24px;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
-.nav-section li a:after{
+.nav-links li a:after{
     content: '';
     display: block;
     border-bottom: 2px solid #30354F;
@@ -104,33 +117,83 @@ ul, li {
     transition: .2s ease-in-out;
 }
 
-.nav-section li a:hover:after{
+.nav-links li a:hover:after{
     transform: scaleX(1);
 }
 
-.nav-button ul {
-    list-style-type: none;
-    margin: auto 0;
+.etc {
+    display: flex;
+    align-items: center;
 }
 
-.nav-button li {
-    list-style: none;
-    float: left;
+.etc .cart, .etc .wishlist, .etc .account {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-left: 17px;
 }
-.grid-nav-item .nav-button li a{
+
+.cart i, .wishlist i, .account i {
+    position: absolute;
     color: #30354F;
-    position: relative;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-left: 30px;
-    margin-top: 15px;
+    cursor: pointer;
+    font-size: 22px;
+    transition: all 0.3 ease;
 }
 
-.grid-nav-item .nav-button li a img {
-    width: 20px;
-    height: 20px;
-    text-align: center;
+.cart i.shopp {
+    opacity: 0;
+    pointer-events: none;
+}
+.cart.active i.shopp {
+    opacity: 1;
+    pointer-events: auto;
+}
+.cart.active i.shop {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+.wishlist i.heartt {
+    opacity: 0;
+    pointer-events: none;
+}
+.wishlist.active i.heartt {
+    opacity: 1;
+    pointer-events: auto;
+}
+.wishlist.active i.heart {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.account i.userr {
+    opacity: 0;
+    pointer-events: none;
+}
+.account.active i.userr {
+    opacity: 1;
+    pointer-events: auto;
+}
+.account.active i.user {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.menu .logo-toggle {
+    display: none;
+}
+
+.nav .sidebarOpen {
+    color: #30354F;
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+    display: none;
 }
 
 
