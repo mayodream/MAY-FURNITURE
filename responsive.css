@@ -70,8 +70,8 @@
 /* For Smartphone */
 @media all and (max-width: 670px) {
      .etc .cart, .etc .wishlist, .etc .account {
-        height: 30px;
-        width: 30px;
+        height: 20px;
+        width: 20px;
         display: flex;
         align-items: center;
         justify-content: right;
