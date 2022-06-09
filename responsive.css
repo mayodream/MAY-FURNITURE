@@ -545,12 +545,17 @@
         font-size: 18px;
     }
 
+    .etc {
+        margin-right: 10px;
+    }
+    
     .etc .cart, .etc .wishlist, .etc .account {
         height: 30px;
         width: 30px;
         display: flex;
         align-items: center;
         justify-content: right;
+        margin-left: 5px;
     }
 
     .logo-toggle .sidebarClose {
