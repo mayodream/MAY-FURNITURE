@@ -1,4 +1,4 @@
-# MAY FURNITURE (ON PROGRESS)
+# MAY FURNITURE (IN PROGRESS)
 
 Hi my name is Feranandah you can call me mayo. Mayo is my nickname xixi.
 So this time I tried to make a responsive website, namely **"MAY FURNITURE"**. "MAY" is taken from my nickname "Mayo".
