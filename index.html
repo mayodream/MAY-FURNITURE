@@ -7,8 +7,11 @@
     <title>MAY FURNITURE</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="glider.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
@@ -80,95 +83,177 @@
 
 
 
-        <!-- Section BEST SELLER START -->
+
+
+        <!--Section BEST SELLER START-->
         <section id="product">
-            <div class="product-wrapper">
-                <div class="container home-container">
-                    <div class="best-sellers-wrapper">
-                        <div class="product-bar">
-                            <div class="nav-tiltle">
+            <div class="container best-seller">
+                <div class="best-seller-wrapper">
+                    
+                    <div class="bs-slider">
+                        <div class="slide-bar">
+                            <div class="nav-title">
                                 <h1>BEST SELLERS</h1>
                             </div>
-                            <div class="product-button">
-                                <ul class="nav-button">
-                                    <li><a href="left-product"><i class="fa fa-arrow-left"></i></a></li>
-                                    <li><a href="right-product"><i class="fa fa-arrow-right"></i></a></li>
-                                </ul>
+                            <div class="slider-btn">
+                                <button aria-label="Previous" class="glider-prev">
+                                    <span><i class='bx bx-left-arrow-alt'></i></span>
+                                </button>
+                                <span></span>
+                                <button aria-label="Next" class="glider-next">
+                                    <span><i class='bx bx-right-arrow-alt'></i></span>
+                                </button>
                             </div>
                         </div>
-                        <div class="product-item">
-                            <div class="show-product">
-                                <div class="pict-product">
-                                    <a href="#product1"><img src="image\product1.jpg" alt=""></a>
-                                </div>
-                                <div class="detail-product">
-                                    <h3>Outline Chair</h3>
-                                    <div class="price">
-                                        <div class="real-price">
-                                            <h3>$76.28</h3>
-                                        </div>
-                                        <div class="disc-price">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="show-product">
-                                <div class="pict-product">
-                                    <a href="#product2"><img src="image\product2.jpg" alt=""></a>
-                                </div>
-                                <div class="detail-product">
-                                    <h3>Side Table</h3>
-                                    <div class="price">
-                                        <div class="real-price">
-                                            <h3>$104.38</h3>
-                                        </div>
-                                        <div class="disc-price">
+                        <div class="glider-contain">
+                            
+                            <div class="glider">
+                                <!--=======PRODUCT BOX1 START==========-->
+                                <div class="best-seller-box">
+
+                                    <span class="p-sale">SALE</span>
+            
+                                    <div class="bs-img-container">
+                                        <div class="best-img">
+                                            <a href="#">
+                                                <img src="image/product1.jpg" class="img-front" alt="Front">
+                                                <img src="image/product1_1.jpg" class="img-back" alt="Back">
+                                            </a>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="show-product">
-                                <div class="pict-product">
-                                    <a href="#product3"><img src="image\product3.jpg" alt=""></a>
-                                </div>
-                                <div class="detail-product">
-                                    <h3>Padded Chair</h3>
-                                    <div class="price">
-                                        <div class="real-price">
-                                            <h3>$65.23</h3>
+            
+                                    <div class="bs-box-text">
+                                        <div class="product-detail">
+                                            <a href="#">Outline Chair</a>
                                         </div>
-                                        <div class="disc-price">
+                                        <div class="product-price">
+                                            <span class="p-price">$76.28</span>
+                                            <span class="p-discount">skjs</span>
                                         </div>
                                     </div>
+
                                 </div>
-                            </div>
-                            <div class="show-product">
-                                <div class="pict-product">
-                                    <a href="#product4"><img src="image\product4.jpg" alt=""></a>
-                                </div>
-                                <div class="detail-product">
-                                    <h3>Beside Table</h3>
-                                    <div class="price">
-                                        <div class="real-price">
-                                            <h3>$59.15</h3>
-                                        </div>
-                                        <div class="disc-price">
-                                            <h3>$73.84</h3>
+                                <!--=======PRODUCT BOX1 END==========-->
+
+                                <!--=======PRODUCT BOX2 START==========-->
+                                <div class="best-seller-box">
+
+                                    <span class="p-sale">SALE</span>
+            
+                                    <div class="bs-img-container">
+                                        <div class="best-img">
+                                            <a href="#">
+                                                <img src="image/product2.jpg" class="img-front" alt="Front">
+                                                <img src="image/product2.jpg" class="img-back" alt="Back">
+                                            </a>
                                         </div>
                                     </div>
+            
+                                    <div class="bs-box-text">
+                                        <div class="product-detail">
+                                            <a href="#">Outline Chair</a>
+                                        </div>
+                                        <div class="product-price">
+                                            <span class="p-price">$76.28</span>
+                                            <span class="p-discount">skjs</span>
+                                        </div>
+                                    </div>
+
                                 </div>
+                                <!--=======PRODUCT BOX2 END==========-->
+
+                                <!--=======PRODUCT BOX3 START==========-->
+                                <div class="best-seller-box">
+
+                                    <span class="p-sale">SALE</span>
+            
+                                    <div class="bs-img-container">
+                                        <div class="best-img">
+                                            <a href="#">
+                                                <img src="image/product3.jpg" class="img-front" alt="Front">
+                                                <img src="image/product2.jpg" class="img-back" alt="Back">
+                                            </a>
+                                        </div>
+                                    </div>
+            
+                                    <div class="bs-box-text">
+                                        <div class="product-detail">
+                                            <a href="#">Outline Chair</a>
+                                        </div>
+                                        <div class="product-price">
+                                            <span class="p-price">$76.28</span>
+                                            <span class="p-discount">skjs</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--=======PRODUCT BOX3 END==========-->
+
+                                <!--=======PRODUCT BOX4 START==========-->
+                                <div class="best-seller-box">
+
+                                    <span class="p-sale">SALE</span>
+            
+                                    <div class="bs-img-container">
+                                        <div class="best-img">
+                                            <a href="#">
+                                                <img src="image/product4.jpg" class="img-front" alt="Front">
+                                                <img src="image/product2.jpg" class="img-back" alt="Back">
+                                            </a>
+                                        </div>
+                                    </div>
+            
+                                    <div class="bs-box-text">
+                                        <div class="product-detail">
+                                            <a href="#">Outline Chair</a>
+                                        </div>
+                                        <div class="product-price">
+                                            <span class="p-price">$76.28</span>
+                                            <span class="p-discount">skjs</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--=======PRODUCT BOX4 END==========-->
+
+                                <!--=======PRODUCT BOX5 START==========-->
+                                <div class="best-seller-box">
+
+                                    <span class="p-sale">SALE</span>
+            
+                                    <div class="bs-img-container">
+                                        <div class="best-img">
+                                            <a href="#">
+                                                <img src="image/product5.jpg" class="img-front" alt="Front">
+                                                <img src="image/product5_1.jpg" class="img-back" alt="Back">
+                                            </a>
+                                        </div>
+                                    </div>
+            
+                                    <div class="bs-box-text">
+                                        <div class="product-detail">
+                                            <a href="#">Outline Chair</a>
+                                        </div>
+                                        <div class="product-price">
+                                            <span class="p-price">$76.28</span>
+                                            <span class="p-discount">skjs</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--=======PRODUCT BOX5 END==========-->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Section BEST SELLER END -->
+        <!--Section BEST SELLER END-->
 
 
 
 
-
+        
         <!-- Section SLIDE SHOW PROMOTION START -->
         <section id="promotion">
             <div class="prom-class">
@@ -182,7 +267,6 @@
                     <div class="slide fade">
                         <img src='image/Frame 9.jpg' alt=''>
                     </div>
-            
                     <a href="#" class="prev" title="Previous">&#10094</a>
                     <a href="#" class="next" title="Next">&#10095</a>
                 </div>
@@ -199,153 +283,236 @@
 
 
 
-        <!-- Section OUR PRODUCT START -->
+        <!-- Section OUR PRODUCT START-->
         <section id="our-products">
-            <div class="product-wrapper">
-                <div class="container products-wrapper">
-                    <div class="our-products-wrapper">
-                        <div class="product-bar">
-                            <div class="nav-tiltle">
-                                <h1>OUR PRODUCTS</h1>
-                            </div>
-                            <div class="product-button">
-                                <ul class="nav-button">
-                                    <li><a href="left-product"><i class="fa fa-arrow-left"></i></a></li>
-                                    <li><a href="right-product"><i class="fa fa-arrow-right"></i></a></li>
-                                </ul>
-                            </div>
+            <div class="container our-product">
+                <div class="our-products-wrapper">
+                    <div class="op-contain">
+                        <div class="slide-bar">
+                            <h1>OUR PRODUCTS</h1>
                         </div>
-                        <div class="product-item">
-                            <div class="show-product">
-                                <div class="pict-product">
-                                    <a href="#product5"><img src="image\product5.jpg" alt=""></a>
+                        <div class="op-box">
+                            <!--=======PRODUCT BOX1 START==========-->
+                            <div class="best-seller-box">
+
+                                <!--<span class="p-sale"></span>-->
+        
+                                <div class="bs-img-container">
+                                    <div class="best-img">
+                                        <a href="#">
+                                            <img src="image/product5.jpg" class="img-front" alt="Front">
+                                            <img src="image/product5_1.jpg" class="img-back" alt="Back">
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="detail-product">
-                                    <h3>Arc Chair</h3>
-                                    <div class="price">
-                                        <div class="real-price">
-                                            <h3>$327.93</h3>
-                                        </div>
-                                        <div class="disc-price">
-                                        </div>
+        
+                                <div class="bs-box-text">
+                                    <div class="product-detail">
+                                        <a href="#">Arc Chair</a>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="p-price">$327.93</span>
+                                        <span class="p-discount"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--=======PRODUCT BOX1 END==========-->
+
+                            <!--=======PRODUCT BOX2 START==========-->
+                            <div class="best-seller-box">
+
+                                <!--<span class="p-sale"></span>-->
+        
+                                <div class="bs-img-container">
+                                    <div class="best-img">
+                                        <a href="#">
+                                            <img src="image/product6.jpg" class="img-front" alt="Front">
+                                            <img src="image/product8.jpg" class="img-back" alt="Back">
+                                        </a>
+                                    </div>
+                                </div>
+        
+                                <div class="bs-box-text">
+                                    <div class="product-detail">
+                                        <a href="#">Wood Barstool Chair</a>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="p-price">$62.47</span>
+                                        <span class="p-discount"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--=======PRODUCT BOX2 END==========-->
+
+                            <!--=======PRODUCT BOX3 START==========-->
+                            <div class="best-seller-box">
+
+                                <span class="p-sale">SALE</span>
+        
+                                <div class="bs-img-container">
+                                    <div class="best-img">
+                                        <a href="#">
+                                            <img src="image/product7.jpg" class="img-front" alt="Front">
+                                            <img src="image/product2.jpg" class="img-back" alt="Back">
+                                        </a>
+                                    </div>
+                                </div>
+        
+                                <div class="bs-box-text">
+                                    <div class="product-detail">
+                                        <a href="#">Aesthetic Chair</a>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="p-price">$219.61</span>
+                                        <span class="p-discount">$365.21</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--=======PRODUCT BOX3 END==========-->
+
+                            <!--=======PRODUCT BOX4 START==========-->
+                            <div class="best-seller-box">
+
+                                <!--<span class="p-sale"></span>-->
+        
+                                <div class="bs-img-container">
+                                    <div class="best-img">
+                                        <a href="#">
+                                            <img src="image/product8.jpg" class="img-front" alt="Front">
+                                            <img src="image/product2.jpg" class="img-back" alt="Back">
+                                        </a>
+                                    </div>
+                                </div>
+        
+                                <div class="bs-box-text">
+                                    <div class="product-detail">
+                                        <a href="#">TV Stands</a>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="p-price">$417.51</span>
+                                        <span class="p-discount"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--=======PRODUCT BOX4 END==========-->
+
+                            <!--=======PRODUCT BOX5 START==========-->
+                            <div class="best-seller-box">
+
+                                <!--<span class="p-sale"></span>-->
+        
+                                <div class="bs-img-container">
+                                    <div class="best-img">
+                                        <a href="#">
+                                            <img src="image/product9.jpg" class="img-front" alt="Front">
+                                            <img src="image/product2.jpg" class="img-back" alt="Back">
+                                        </a>
+                                    </div>
+                                </div>
+        
+                                <div class="bs-box-text">
+                                    <div class="product-detail">
+                                        <a href="#">King Size Bed</a>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="p-price">$904.34</span>
+                                        <span class="p-discount"></span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="show-product">
-                                <div class="pict-product">
-                                    <a href="#product6"><img src="image\product6.jpg" alt=""></a>
+                            <!--=======PRODUCT BOX5 END==========-->
+
+                            <!--=======PRODUCT BOX6 START==========-->
+                            <div class="best-seller-box">
+
+                                <!--<span class="p-sale"></span>-->
+        
+                                <div class="bs-img-container">
+                                    <div class="best-img">
+                                        <a href="#">
+                                            <img src="image/product10.jpg" class="img-front" alt="Front">
+                                            <img src="image/product2.jpg" class="img-back" alt="Back">
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="detail-product">
-                                    <h3>Wood Barstool Chair</h3>
-                                    <div class="price">
-                                        <div class="real-price">
-                                            <h3>$62.47</h3>
-                                        </div>
-                                        <div class="disc-price">
-                                        </div>
+        
+                                <div class="bs-box-text">
+                                    <div class="product-detail">
+                                        <a href="#">Around Coffee Table</a>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="p-price">$117.84</span>
+                                        <span class="p-discount"></span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="show-product">
-                                <div class="pict-product">
-                                    <a href="#product7"><img src="image\product7.jpg" alt=""></a>
+                            <!--=======PRODUCT BOX6 END==========-->
+
+                            <!--=======PRODUCT BOX7 START==========-->
+                            <div class="best-seller-box">
+
+                                <!--<span class="p-sale"></span>-->
+        
+                                <div class="bs-img-container">
+                                    <div class="best-img">
+                                        <a href="#">
+                                            <img src="image/product11.jpg" class="img-front" alt="Front">
+                                            <img src="image/product2.jpg" class="img-back" alt="Back">
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="detail-product">
-                                    <h3>Aesthetic Chair</h3>
-                                    <div class="price">
-                                        <div class="real-price">
-                                            <h3>$219.61</h3>
-                                        </div>
-                                        <div class="disc-price">
-                                            <h3>$365.21</h3>
-                                        </div>
+        
+                                <div class="bs-box-text">
+                                    <div class="product-detail">
+                                        <a href="#">Flora Cabinet</a>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="p-price">$394.75</span>
+                                        <span class="p-discount"></span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="show-product">
-                                <div class="pict-product">
-                                    <a href="#product8"><img src="image\product8.jpg" alt=""></a>
+                            <!--=======PRODUCT BOX7 END==========-->
+
+                            <!--=======PRODUCT BOX8 START==========-->
+                            <div class="best-seller-box">
+
+                                <!--<span class="p-sale">SALE</span>-->
+        
+                                <div class="bs-img-container">
+                                    <div class="best-img">
+                                        <a href="#">
+                                            <img src="image/product12.jpg" class="img-front" alt="Front">
+                                            <img src="image/product2.jpg" class="img-back" alt="Back">
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="detail-product">
-                                    <h3>TV Stands</h3>
-                                    <div class="price">
-                                        <div class="real-price">
-                                            <h3>$417.51</h3>
-                                        </div>
-                                        <div class="disc-price">
-                                        </div>
+        
+                                <div class="bs-box-text">
+                                    <div class="product-detail">
+                                        <a href="#">Slim 3-Seater Sofa</a>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="p-price">$427.10</span>
+                                        <span class="p-discount"></span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="show-product">
-                                <div class="pict-product">
-                                    <a href="#product9"><img src="image\product9.jpg" alt=""></a>
-                                </div>
-                                <div class="detail-product">
-                                    <h3>King Size Bed</h3>
-                                    <div class="price">
-                                        <div class="real-price">
-                                            <h3>$904.34</h3>
-                                        </div>
-                                        <div class="disc-price">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="show-product">
-                                <div class="pict-product">
-                                    <a href="#product10"><img src="image\product10.jpg" alt=""></a>
-                                </div>
-                                <div class="detail-product">
-                                    <h3>Around Coffee Table</h3>
-                                    <div class="price">
-                                        <div class="real-price">
-                                            <h3>$117.84</h3>
-                                        </div>
-                                        <div class="disc-price">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="show-product">
-                                <div class="pict-product">
-                                    <a href="#product11"><img src="image\product11.jpg" alt=""></a>
-                                </div>
-                                <div class="detail-product">
-                                    <h3>Flora Cabinet</h3>
-                                    <div class="price">
-                                        <div class="real-price">
-                                            <h3>$394.75</h3>
-                                        </div>
-                                        <div class="disc-price">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="show-product">
-                                <div class="pict-product">
-                                    <a href="#product12"><img src="image\product12.jpg" alt=""></a>
-                                </div>
-                                <div class="detail-product">
-                                    <h3>Slim 3-Seater Sofa</h3>
-                                    <div class="price">
-                                        <div class="real-price">
-                                            <h3>$427.10</h3>
-                                        </div>
-                                        <div class="disc-price">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <!--=======PRODUCT BOX8 END==========-->
                         </div>
-                        <div class="view-all-btn">
-                            <a href="#all-product"><button>VIEW ALL PRODUCT</button></a>
-                        </div>
+                    </div>
+                    <div class="view-all-btn">
+                        <a href="#all-product"><button>VIEW ALL PRODUCT</button></a>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Section OUR PRODUCT END -->
+        <!-- Section OUR PRODUCT END-->
+        
 
 
 
@@ -381,10 +548,10 @@
         <section id="our-services">
             <div class="container our-service">
                 <div class="service-wrapper">
-                    <div class="service-content">
+                    <div class="service-content item-one">
                         <img src="image/service.jpg" alt="">
                     </div>
-                    <div class="service-content">
+                    <div class="service-content item-two">
                         <div class="title">
                             <h1>SERVICE WE PROVIDE</h1>
                             <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h3>
@@ -417,19 +584,19 @@
         <section id="newsletter">
             <div class="container newsletters">
                 <div class="newsletter-wrapper">
-                    <div class="newsletter-content">
+                    <div class="newsletter-content item-one">
                         <div class="title">
                             <h1>NEWSLETTER</h1>
                             <h3>Register now with our newsletter and get the lastest updates available</h3>
                             <form>
-                                <div>
+                                <div class="txtsbmt">
                                     <input type="text" placeholder="Your mail here ..." name="e-mail">
                                     <input type="submit" value="SUBSCRIBE">
                                 </div>
                             </form>
                         </div>
                     </div>
-                    <div class="newsletter-content">
+                    <div class="newsletter-content item-two">
                         <img src="image/newsletter.jpg" alt="">
                     </div>
                 </div>
@@ -444,14 +611,14 @@
         <section id="contact">
             <div class="container footer-top">
                 <div class="footer-wrapper">
-                    <div class="footer-section">
+                    <div class="footer-section item-one">
                         <div class=footer-title>
                             <img src="image/logo-footer.png" alt="">
                             <h4>MAY FURNITURE</h4>
                         </div>
                         <div class="footer-social">
                             <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h5>
-                            <ul>
+                            <ul class="social-icon">
                                 <li><a href="https://www.facebook.com"><i class="fa fa-facebook" style="font-size:20px;color:#30354F"></i></a></li>
                                 <li><a href="https://www.instagram.com/"><i class="fa fa-instagram" style="font-size:20px;color:#30354F"></i></a></li>
                                 <li><a href="https://web.twitter.com"><i class="fa fa-twitter" style="font-size:20px;color:#30354F"></i></a></li>
@@ -459,7 +626,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="footer-section">
+                    <div class="footer-section item-two">
                         <div class=footer-title>
                             <h4>Services</h4>
                         </div>
@@ -472,7 +639,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="footer-section">
+                    <div class="footer-section item-two">
                         <div class=footer-title>
                             <h4>About Us</h4>
                         </div>
@@ -485,7 +652,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="footer-section">
+                    <div class="footer-section item-three">
                         <div class=footer-title>
                             <h4>Time Work</h4>
                         </div>
@@ -496,7 +663,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
         <!-- Section CONTACT END -->
@@ -511,5 +677,6 @@
     </footer>
 
     <script type="text/javascript" src="script.js"></script>
+    <script src="glider.min.js"></script>
 </body>
 </html>
