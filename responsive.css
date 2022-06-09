@@ -296,7 +296,7 @@
     .top-wrapper {
         margin: 0;
         max-width: 1000px;
-        background-image: url(image/cover-max-1000px.jpg);
+        background-image: url(image/cover-max1000px.jpg);
         background-size: cover;
     }
 
@@ -446,6 +446,7 @@
     /*-------------------NEWSLETTER START-------------------*/
     .newsletter-wrapper {
         max-width: 800px;
+        margin-bottom: 150px;
     }
     
     .newsletter-content .title{
