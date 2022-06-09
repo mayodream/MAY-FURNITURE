@@ -1,4 +1,4 @@
-/* NAVBAR */
+//----------------------- NAVBAR --------------------------
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
     if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
@@ -51,7 +51,7 @@ const body = document.querySelector("body"),
 
 
 
-/* PROMOTION */
+//-------------------- PROMOTION -----------------
 var currentSlide = 0;
 const slides = document.querySelectorAll(".slide")
 const dots = document.querySelectorAll('.dot')
@@ -91,4 +91,56 @@ dots.forEach((dot, index) => {
       init(index)
       currentSlide = i
     })
+})
+
+
+
+
+
+//--------------------------- BEST SELLER -------------------------
+window.addEventListener('load', function(){
+    new Glider(document.querySelector('.glider'), {
+        slidesToScroll: 1,
+        slidesToShow: 4,
+        draggable: true,
+        arrows: {
+          prev: '.glider-prev',
+          next: '.glider-next'
+        },
+        responsive: [
+            {
+                // screens greater than >= 800px
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 2,
+                }
+            },
+            {
+                // screens greater than >= 670px
+                breakpoint: 670,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 2,
+                }
+            }
+            ,
+            {
+                // screens greater than >= 300px
+                breakpoint: 300,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                // screens greater than >= 0px
+                breakpoint: 0,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
+    });
 })
