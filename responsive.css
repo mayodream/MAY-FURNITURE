@@ -1,8 +1,228 @@
+/* For desktop */
+@media all and (max-width: 1260px){
+    .container {
+        max-width: 1260px;
+        margin: 0 auto;
+    }
+    .nav {
+        width: 100%;
+        max-width: 950px;
+    }
+    
+
+    /*---------------------HEADER START-----------------------*/
+    .home-container {
+        max-width: 1200px;
+        height: 700px;
+    }
+
+    .home-container .title {
+        width: 900px;
+        padding-top: 241px;
+        padding-left: 50px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    
+    .title h1, .title h3 {
+        padding-right: 300px;
+    }
+    
+    .home-button{
+        padding-top: 30px;
+        padding-left: 50px;
+        width: 900px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    /*---------------------HEADER END-----------------------*/
+
+
+
+    /*-------------------ABOUT US START----------------------*/
+    .this-about-us {
+        max-width: 1200px;
+    }
+
+    .about-us-wrapper {
+        max-width: 950px;
+        display: flex;
+    }
+
+    .about-us-content .title h1, .about-us-content .title h3 {
+        padding-right: 0px;
+    }
+
+    .about-us-content {
+        width: 50%;
+        padding-right: 0px;
+        padding-left: 20px;
+    }
+
+    .about-us-content img{
+        float: right;
+    }
+    /*-------------------ABOUT US END----------------------*/
+
+
+
+
+
+    /*------------------SERVICES START-----------------*/
+    .our-service {
+        height: auto;
+    }
+    
+    .service-wrapper {
+        max-width: 1000px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .service-wrapper .item-one{
+        flex: 40%;
+    }
+
+    .service-wrapper .item-two{
+        flex: 60%;
+    }
+
+    .service-content .title {
+        margin-right: 0;
+    }
+
+    .service-content .title h1, .service-content .title h3 {
+        padding-right: 0px;
+    }
+    
+    .service-content img {
+        width: 100%;
+        height: auto;
+    }
+
+    .service-btn {
+        padding-top: 45px;
+        margin: 0px auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .service-btn img {
+        margin: 0 auto;
+        border-radius: 20px;
+        padding: 25px;
+        height: 100px;
+        width: 100px;
+    }
+    /*------------------SERVICES END-------------------*/
+
+
+
+
+    /*--------------------NEWSLETTER START--------------*/
+    .newsletters {
+        height: auto;
+    }
+    
+    .newsletter-wrapper {
+        margin-top: 150px;
+        max-width: 1000px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .newsletter-wrapper .item-one {
+        width: 60%;
+    }
+
+    .newsletter-wrapper .item-two {
+        width: 40%;
+    }
+    
+    .newsletter-content .title{
+        padding: 40px;
+        height: auto;
+    }
+    
+    .newsletter-content .title h1{
+        color: #fff;
+    }
+    
+    .newsletter-content .title h3{
+        color: #fff;
+        padding-right: 60px;
+        margin-bottom: 30px;
+    }
+    
+    .newsletter-content img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .newsletter-content .txtsbmt {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 60px;
+    }
+
+    .title input[type="text"] {
+        width: 60%;
+    }
+    
+    .title input[type="submit"] {
+        width: 40%;
+    }
+    /*--------------------NEWSLETTER END----------------*/
+
+
+
+    /*------------------FOOTER START-----------------------*/
+    .footer-wrapper {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item-one, .item-three{
+        flex: 30%;
+    }
+
+    .item-two {
+        flex: 20%;
+    }
+
+    .footer-social h5 {
+        padding-right: 0px;
+    }
+    
+    .footer-social i {
+        display: flex;
+        flex-direction: column;
+        flex: auto;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+    
+    .footer-section {
+        margin: 0 auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+    /*------------------FOOTER END-----------------------*/
+
+}
 /* For iPad */
 @media all and (max-width: 1000px) {
+    /* -------------------------NAVIGATION START----------------------*/
     .nav {
-        position: fixed;
-        width: 100%;
+        margin: 0;
+        max-width: 1000px;
     }
 
     .menu {
@@ -56,28 +276,613 @@
         margin-left: 0;
         padding-top: 50px;
     }
+    
+    .etc {
+        margin-right: 30px;
+    }
 
     .nav-links li a{
         display: block;
-        margin-top: 20px;
+        margin-top: 30px;
+        margin-left: 0;
     }
 
     .nav .sidebarOpen {
         display: block;
+        padding-right: 100px;
     }
+    /* -------------------------NAVIGATION END----------------------*/    
+
+    .top-wrapper {
+        margin: 0;
+        max-width: 1000px;
+        background-image: url(image/cover-max-1000px.jpg);
+        background-size: cover;
+    }
+
+    .title h1{
+        max-width: 700px;
+        font-size: 40px;
+    }
+    
+    .title h3{
+        max-width: 800px;
+        font-size: 18px;
+    }
+
+    /*--------------------------BEST SELLER START-------------*/
+    .best-seller-wrapper {
+        max-width: 800px;
+    }
+
+    .best-seller-box {
+        max-width: 180px;
+        position: relative;
+    }
+
+    .slide-bar {
+        padding: 0 20px;
+    }
+    .bs-slider .nav-title{
+        color: #30354F;
+        font-size: 20px;
+    }
+
+    .p-sale {
+        width: 60px;
+        height: 22px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    /*--------------------------BEST SELLER END---------------*/
+
+    /*--------------------------OUR PRODUCTS START-------------*/
+    .our-products-wrapper {
+        max-width: 800px;
+    }
+
+    .op-box .best-seller-box {
+        max-width: 180px;
+        position: relative;
+    }
+
+    .slide-bar h1{
+        font-size: 20px;
+    }
+
+    .p-sale {
+        width: 60px;
+        height: 22px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    /*--------------------------OUR PRODUCTS END---------------*/
+
+
+
+    /*-------------------ABOUT US START----------------------*/
+    .this-about-us {
+        max-width: 1000px;
+    }
+
+    .about-us-wrapper {
+        max-width: 800px;
+        display: flex;
+    }
+
+    .about-us-content .title h1{
+        font-size: 30px;
+        padding-right: 0px;
+    }
+
+    .about-us-content .title h3 {
+        font-size: 16px;
+        padding-right: 0px;
+    }
+
+    .about-us-content {
+        width: 50%;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .about-us-content .home-button button{
+        font-size: 14px;
+        width: 170px;
+    }
+
+    .about-us-content img{
+        height: 300px;
+        width: 300px;
+        float: right;
+    }
+    /*-------------------ABOUT US END----------------------*/
+
+
+
+
+    /*-------------------SERVICES START----------------------*/
+    .service-wrapper {
+        max-width: 800px;
+    }
+    .service-content {
+        margin: auto 0;
+    }
+
+    .service-content .title {
+        margin-top: 0;
+    }
+
+    .service-content .title h1{
+        font-size: 30px;
+    }
+
+    .service-content .title h3 {
+        font-size: 16px;
+    }
+
+    .service-btn {
+        padding-top: 30px;
+    }
+
+    .service-btn img {
+        margin: 0 auto;
+        border-radius: 15px;
+        padding: 15px;
+        height: 70px;
+        width: 70px;
+    }
+    
+    .service-button h3{
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    /*-------------------SERVICES END----------------------*/
+
+
+
+
+
+    /*-------------------NEWSLETTER START-------------------*/
+    .newsletter-wrapper {
+        max-width: 800px;
+    }
+    
+    .newsletter-content .title{
+        padding: 30px;
+    }
+    
+    .newsletter-content .title h1{
+        font-size: 30px;
+    }
+    
+    .newsletter-content .title h3{
+        font-size: 16px;
+    }
+    .txtsbmt {
+        padding: 0;
+        margin: 0;
+    }
+
+    .title input[type="text"] {
+        height: 40px;
+        font-size: 16px;
+        padding: 10px 15px;
+        line-height: 30px;
+        border-radius: 10px 0 0 10px;
+    }
+    
+    .title input[type="submit"] {
+        height: 40px;
+        font-size: 16px;
+        padding: 0px 15px;
+        line-height: 30px;
+        border: 3px solid #fff;
+        background: #fff;
+        border-radius: 0 10px 10px 0;
+    }
+    /*--------------------NEWSLETTER END--------------------*/
+
+
+
+
+
+    /* ------------------FOOTER START------------------*/
+    .footer-wrapper {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-section .item-one, .footer-section .item-two , .footer-section .item-three{
+        flex: 40%;
+    }
+
+    .footer-social h5 {
+        padding-right: 0px;
+    }
+    /* ------------------FOOTER END------------------*/
 }
   
 /* For Smartphone */
 @media all and (max-width: 670px) {
-    .etc {
-        padding-right: 20px;
+    /* -------------------------NAVIGATION START----------------------*/
+    .menu {
+        position: fixed;
+        height: 100%;
+        left: -100%;
+        top: 0;
+        width: 300px;
+        background-color: #fff;
+        padding: 0 20px;
     }
-     .etc .cart, .etc .wishlist, .etc .account {
+
+    .logo a {
+        font-size: 16px;
+        color: #30354F;
+        float: left;
+    }
+    
+    .logo a img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .logo-toggle .logoo a {
+        font-size: 16px;
+        color: #30354F;
+        float: left;
+    }
+    
+    .logo-toggle .logoo a img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .cart i, .wishlist i, .account i {
+        font-size: 18px;
+    }
+
+    .etc .cart, .etc .wishlist, .etc .account {
         height: 30px;
         width: 30px;
         display: flex;
         align-items: center;
         justify-content: right;
-        margin-right: 10px;
     }
+
+    .logo-toggle .sidebarClose {
+        color: #30354F;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .nav .sidebarOpen {
+        font-size: 25px;
+        padding-right: 60px;
+    }
+
+    .nav-links li a{
+        font-size: 14px;
+        margin-left: 0;
+    }
+    /* -------------------------NAVIGATION END----------------------*/
+
+
+
+
+    /* -------------------- HEADER START------------------ */
+    .home-container {
+        max-width: 670px;
+        height: 100vh;
+        border: 1px solid rgba(119, 30, 30, 0);
+    }
+
+    .top-wrapper {
+        background-image: url(image/cover-max-670.jpg);
+        background-size: cover;
+    }
+
+    .home-container .title {
+        max-width: 400px;
+        padding: 0;
+        margin: 0 auto;
+        padding-top: 240px;
+        text-align: left;
+    }
+    
+    .title h1{
+        padding-right: 0px;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .title h3{
+        font-size: 16px;
+        padding-right: 0px;
+    }
+    
+    .home-button {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .home-button button{
+        border: 1px solid #30354F;
+        height: 30px;
+        width: 150px;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+    /* ----------------------HEADER END-------------------- */
+
+
+
+
+    /*--------------------------BEST SELLER START-------------*/
+    .best-seller-wrapper {
+        max-width: 400px;
+    }
+
+    .best-seller-box {
+        max-width: 150px;
+    }
+
+    .bs-slider .nav-title{
+        color: #30354F;
+        font-size: 18px;
+    }
+
+    .p-sale {
+        width: 60px;
+        height: 22px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .slider-btn button {
+        font-size: 30px;
+    }
+    /*--------------------------BEST SELLER END---------------*/
+
+    
+
+
+    /*--------------------------BEST SELLER START-------------*/
+    .our-products-wrapper {
+        max-width: 400px;
+    }
+
+    .op-box .best-seller-box {
+        max-width: 150px;
+    }
+
+    .slide-bar h1{
+        color: #30354F;
+        font-size: 18px;
+    }
+
+    .p-sale {
+        width: 60px;
+        height: 22px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    /*--------------------------BEST SELLER END---------------*/
+
+
+
+
+
+
+    /* ------------------PROMOTION START---------------*/
+    .dots-container .dot {
+        width: 10px;
+        height: 10px;
+    }
+    /* ------------------PROMOTION END-----------------*/
+
+
+
+
+
+    /*-------------------ABOUT US START----------------------*/
+    .this-about-us {
+        max-width: 670px;
+        height: auto;
+        margin-left: 0px;
+    }
+
+    .about-us {
+        border: 1px solid rgba(255, 0, 0, 0);
+        height: auto;
+    }
+
+    .about-us-wrapper {
+        max-width: 670px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-us-content .title {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px 20px;
+        margin-right: 30px;
+
+    }
+
+    .about-us-content .title h1{
+        font-size: 25px;
+        padding-right: 0px;
+    }
+
+    .about-us-content .title h3 {
+        font-size: 14px;
+        padding-right: 0px;
+    }
+
+    .about-us-content {
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    .about-us-content img{
+        margin-top: 20px;
+        margin-right: 30px;
+        max-width: 200px;
+        height: auto;
+    }
+
+    .about-us .home-button {
+        margin-top: 0;
+        margin-left: 0px;
+    }
+
+    .about-us .home-button button {
+        font-size: 12px;
+        width: 150px;
+        background-color: #ffffffb8;
+    }
+    /*-------------------ABOUT US END----------------------*/
+
+
+
+
+
+    /*------------------SERVICES START-----------------*/
+    .service-wrapper {
+        max-width: 670px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-content {
+        margin: auto 30px;
+    }
+
+    .service-content img{
+        max-width: 200px;
+        height: auto;
+        margin: 0px 0px 30px 30px;
+    }
+
+    .service-content .title {
+        padding: 30px 30px;
+        margin-top: 0;
+    }
+
+    .service-content .title h1{
+        font-size: 25px;
+        padding-right: 0px;
+    }
+
+    .service-content .title h3 {
+        font-size: 14px;
+        padding-right: 0px;
+    }
+
+    .service-btn {
+        padding-top: 20px;
+    }
+
+    .service-button {
+        padding: 0 10px;
+    }
+    
+    .service-btn img {
+        margin: 0 auto;
+        border-radius: 10px;
+        padding: 10px;
+        height: 55px;
+        width: 55px;
+    }
+    
+    .service-button h3{
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    /*------------------SERVICES END-------------------*/
+
+
+
+
+    /*-------------------NEWSLETTER START-------------------*/
+    .newsletter-wrapper {
+        max-width: 670px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .newsletter-wrapper .item-one, .newsletter-wrapper .item-two {
+        width: auto;
+    }
+
+    .newsletter-content {
+        margin: auto 30px;
+    }
+
+    .newsletter-content img{
+        max-width: 200px;
+        height: auto;
+        float: right;
+        margin: 0px 30px 30px 0px;
+    }
+    
+    .newsletter-content .title{
+        padding: 30px;
+    }
+    
+    .newsletter-content .title h1{
+        font-size: 25px;
+    }
+    
+    .newsletter-content .title h3{
+        font-size: 14px;
+        padding-right: 0;
+    }
+    .newsletter-content .txtsbmt {
+        margin-right: 0;
+    }
+
+    .title input[type="text"] {
+        font-size: 12px;
+    }
+    
+    .title input[type="submit"] {
+        font-size: 12px;
+    }
+    /*--------------------NEWSLETTER END--------------------*/
+
+
+
+
+
+
+    /* ------------------FOOTER START------------------*/
+    .footer-wrapper {
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-section {
+        margin: 0;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+    
+    .footer-social .social-icon {
+        display: flex;
+        flex: auto;
+    }
+
+    .footer-social h5 {
+        padding-right: 0px;
+    }
+    /* ------------------FOOTER END------------------*/
 }
